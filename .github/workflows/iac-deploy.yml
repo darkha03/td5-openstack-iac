@@ -19,6 +19,7 @@ env:
 
 jobs:
   deploy:
+    environment: production
     runs-on: [self-hosted, openstack]
     concurrency:
       group: deploy-prod
